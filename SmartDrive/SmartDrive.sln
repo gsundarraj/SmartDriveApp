@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.WebApi", "SmartDrive.WebApi\SmartDrive.WebApi.csproj", "{E4340E64-11C8-4FE1-8F52-321B12FBDA2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{282F4180-239A-4AE5-B113-A4C0FE2FBE0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B3A5C758-A0C2-4F54-A94E-F8FE615C2931}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8853BD2B-7C1B-4898-81B7-B2ECF674324B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.Persistence", "SmartDrive.Persistence\SmartDrive.Persistence.csproj", "{F0212EE2-F816-482C-8CCB-E73CF20DE06A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.Application", "SmartDrive.Application\SmartDrive.Application.csproj", "{ABE59532-7011-4758-9A6F-EAC68277A370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.Domain", "SmartDrive.Domain\SmartDrive.Domain.csproj", "{639C46F8-90D3-4C52-B825-CC7975D2B3DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4340E64-11C8-4FE1-8F52-321B12FBDA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4340E64-11C8-4FE1-8F52-321B12FBDA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4340E64-11C8-4FE1-8F52-321B12FBDA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4340E64-11C8-4FE1-8F52-321B12FBDA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0212EE2-F816-482C-8CCB-E73CF20DE06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0212EE2-F816-482C-8CCB-E73CF20DE06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0212EE2-F816-482C-8CCB-E73CF20DE06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0212EE2-F816-482C-8CCB-E73CF20DE06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE59532-7011-4758-9A6F-EAC68277A370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE59532-7011-4758-9A6F-EAC68277A370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE59532-7011-4758-9A6F-EAC68277A370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE59532-7011-4758-9A6F-EAC68277A370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{639C46F8-90D3-4C52-B825-CC7975D2B3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{639C46F8-90D3-4C52-B825-CC7975D2B3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{639C46F8-90D3-4C52-B825-CC7975D2B3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{639C46F8-90D3-4C52-B825-CC7975D2B3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4340E64-11C8-4FE1-8F52-321B12FBDA2D} = {8853BD2B-7C1B-4898-81B7-B2ECF674324B}
+		{F0212EE2-F816-482C-8CCB-E73CF20DE06A} = {B3A5C758-A0C2-4F54-A94E-F8FE615C2931}
+		{ABE59532-7011-4758-9A6F-EAC68277A370} = {282F4180-239A-4AE5-B113-A4C0FE2FBE0D}
+		{639C46F8-90D3-4C52-B825-CC7975D2B3DA} = {282F4180-239A-4AE5-B113-A4C0FE2FBE0D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB53551-359D-40C6-8A96-74DA1CA91F90}
+	EndGlobalSection
+EndGlobal
