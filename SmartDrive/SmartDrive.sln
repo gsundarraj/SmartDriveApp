@@ -3,19 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.WebApi", "SmartDrive.WebApi\SmartDrive.WebApi.csproj", "{E4340E64-11C8-4FE1-8F52-321B12FBDA2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartDrive.WebApi", "SmartDrive.WebApi\SmartDrive.WebApi.csproj", "{E4340E64-11C8-4FE1-8F52-321B12FBDA2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{282F4180-239A-4AE5-B113-A4C0FE2FBE0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B3A5C758-A0C2-4F54-A94E-F8FE615C2931}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8853BD2B-7C1B-4898-81B7-B2ECF674324B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.Persistence", "SmartDrive.Persistence\SmartDrive.Persistence.csproj", "{F0212EE2-F816-482C-8CCB-E73CF20DE06A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartDrive.Persistence", "SmartDrive.Persistence\SmartDrive.Persistence.csproj", "{F0212EE2-F816-482C-8CCB-E73CF20DE06A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.Application", "SmartDrive.Application\SmartDrive.Application.csproj", "{ABE59532-7011-4758-9A6F-EAC68277A370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartDrive.Application", "SmartDrive.Application\SmartDrive.Application.csproj", "{ABE59532-7011-4758-9A6F-EAC68277A370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.Domain", "SmartDrive.Domain\SmartDrive.Domain.csproj", "{639C46F8-90D3-4C52-B825-CC7975D2B3DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartDrive.Domain", "SmartDrive.Domain\SmartDrive.Domain.csproj", "{639C46F8-90D3-4C52-B825-CC7975D2B3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDrive.Infrastructure", "SmartDrive.Infrastructure\SmartDrive.Infrastructure.csproj", "{A0018AEA-366C-4EC4-8FBA-2E0BAB758386}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +44,10 @@ Global
 		{639C46F8-90D3-4C52-B825-CC7975D2B3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{639C46F8-90D3-4C52-B825-CC7975D2B3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{639C46F8-90D3-4C52-B825-CC7975D2B3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0018AEA-366C-4EC4-8FBA-2E0BAB758386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0018AEA-366C-4EC4-8FBA-2E0BAB758386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0018AEA-366C-4EC4-8FBA-2E0BAB758386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0018AEA-366C-4EC4-8FBA-2E0BAB758386}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +57,7 @@ Global
 		{F0212EE2-F816-482C-8CCB-E73CF20DE06A} = {B3A5C758-A0C2-4F54-A94E-F8FE615C2931}
 		{ABE59532-7011-4758-9A6F-EAC68277A370} = {282F4180-239A-4AE5-B113-A4C0FE2FBE0D}
 		{639C46F8-90D3-4C52-B825-CC7975D2B3DA} = {282F4180-239A-4AE5-B113-A4C0FE2FBE0D}
+		{A0018AEA-366C-4EC4-8FBA-2E0BAB758386} = {B3A5C758-A0C2-4F54-A94E-F8FE615C2931}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EB53551-359D-40C6-8A96-74DA1CA91F90}

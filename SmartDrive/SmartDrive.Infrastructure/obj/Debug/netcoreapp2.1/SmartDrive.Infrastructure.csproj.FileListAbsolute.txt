@@ -1,0 +1,8 @@
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Infrastructure\bin\Debug\netcoreapp2.1\SmartDrive.Infrastructure.deps.json
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Infrastructure\bin\Debug\netcoreapp2.1\SmartDrive.Infrastructure.dll
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Infrastructure\bin\Debug\netcoreapp2.1\SmartDrive.Infrastructure.pdb
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Infrastructure\obj\Debug\netcoreapp2.1\SmartDrive.Infrastructure.csproj.CoreCompileInputs.cache
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Infrastructure\obj\Debug\netcoreapp2.1\SmartDrive.Infrastructure.AssemblyInfoInputs.cache
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Infrastructure\obj\Debug\netcoreapp2.1\SmartDrive.Infrastructure.AssemblyInfo.cs
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Infrastructure\obj\Debug\netcoreapp2.1\SmartDrive.Infrastructure.dll
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Infrastructure\obj\Debug\netcoreapp2.1\SmartDrive.Infrastructure.pdb

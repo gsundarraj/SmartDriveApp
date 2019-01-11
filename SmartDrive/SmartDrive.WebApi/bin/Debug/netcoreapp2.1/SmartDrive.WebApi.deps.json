@@ -771,6 +771,7 @@
           "FluentValidation": "8.1.2",
           "MediatR": "6.0.0",
           "SmartDrive.Domain": "1.0.0",
+          "SmartDrive.Infrastructure": "1.0.0",
           "SmartDrive.Persistence": "1.0.0"
         },
         "runtime": {
@@ -786,6 +787,14 @@
         },
         "compile": {
           "SmartDrive.Domain.dll": {}
+        }
+      },
+      "SmartDrive.Infrastructure/1.0.0": {
+        "runtime": {
+          "SmartDrive.Infrastructure.dll": {}
+        },
+        "compile": {
+          "SmartDrive.Infrastructure.dll": {}
         }
       },
       "SmartDrive.Persistence/1.0.0": {
@@ -3964,6 +3973,11 @@
       "sha512": ""
     },
     "SmartDrive.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartDrive.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

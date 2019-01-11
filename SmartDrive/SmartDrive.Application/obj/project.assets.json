@@ -1047,6 +1047,16 @@
           "bin/placeholder/SmartDrive.Domain.dll": {}
         }
       },
+      "SmartDrive.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SmartDrive.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SmartDrive.Infrastructure.dll": {}
+        }
+      },
       "SmartDrive.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -3791,6 +3801,11 @@
       "path": "../SmartDrive.Domain/SmartDrive.Domain.csproj",
       "msbuildProject": "../SmartDrive.Domain/SmartDrive.Domain.csproj"
     },
+    "SmartDrive.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SmartDrive.Infrastructure/SmartDrive.Infrastructure.csproj",
+      "msbuildProject": "../SmartDrive.Infrastructure/SmartDrive.Infrastructure.csproj"
+    },
     "SmartDrive.Persistence/1.0.0": {
       "type": "project",
       "path": "../SmartDrive.Persistence/SmartDrive.Persistence.csproj",
@@ -3803,6 +3818,7 @@
       "MediatR >= 6.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "SmartDrive.Domain >= 1.0.0",
+      "SmartDrive.Infrastructure >= 1.0.0",
       "SmartDrive.Persistence >= 1.0.0"
     ]
   },
@@ -3838,6 +3854,9 @@
           "projectReferences": {
             "E:\\sundarproject\\smartdriveapp\\SmartDrive\\SmartDrive.Domain\\SmartDrive.Domain.csproj": {
               "projectPath": "E:\\sundarproject\\smartdriveapp\\SmartDrive\\SmartDrive.Domain\\SmartDrive.Domain.csproj"
+            },
+            "E:\\sundarproject\\smartdriveapp\\SmartDrive\\SmartDrive.Infrastructure\\SmartDrive.Infrastructure.csproj": {
+              "projectPath": "E:\\sundarproject\\smartdriveapp\\SmartDrive\\SmartDrive.Infrastructure\\SmartDrive.Infrastructure.csproj"
             },
             "E:\\sundarproject\\smartdriveapp\\SmartDrive\\SmartDrive.Persistence\\SmartDrive.Persistence.csproj": {
               "projectPath": "E:\\sundarproject\\smartdriveapp\\SmartDrive\\SmartDrive.Persistence\\SmartDrive.Persistence.csproj"

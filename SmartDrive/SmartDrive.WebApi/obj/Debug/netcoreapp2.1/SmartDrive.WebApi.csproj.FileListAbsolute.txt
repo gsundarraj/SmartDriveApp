@@ -61,3 +61,5 @@ E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.WebApi\obj\Debug\netcoreapp
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.WebApi\obj\Debug\netcoreapp2.1\SmartDrive.WebApi.csproj.CopyComplete
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.WebApi\obj\Debug\netcoreapp2.1\SmartDrive.WebApi.dll
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.WebApi\obj\Debug\netcoreapp2.1\SmartDrive.WebApi.pdb
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.WebApi\bin\Debug\netcoreapp2.1\SmartDrive.Infrastructure.dll
+E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.WebApi\bin\Debug\netcoreapp2.1\SmartDrive.Infrastructure.pdb

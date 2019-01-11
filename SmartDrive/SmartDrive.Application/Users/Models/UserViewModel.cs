@@ -7,7 +7,7 @@ namespace SmartDrive.Application.Users.Models
 {
     public class UserViewModel
     {
-        public int UserId { get; set; }
+        public int Id { get; set; }
 
         public int? AddressId { get; set; }
 
@@ -28,5 +28,24 @@ namespace SmartDrive.Application.Users.Models
         public bool IsSuperAdmin { get; set; }
 
         public DataStatus Status { get; set; }
+
+        public AddressViewModel Address { get; set; }
+    }
+    public class AddressViewModel
+    {
+        public string Address1 { get; set; }
+
+        public string Address2 { get; set; }
+
+        public string City { get; set; }
+
+        public string State { get; set; }
+
+        public string Country { get; set; }
+
+        public string Pincode { get; set; }
+
+        public string MapData { get; set; }
+
     }
 }

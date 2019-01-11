@@ -19,7 +19,6 @@ E:\sundarproject\SmartDrive\SmartDrive.Domain\obj\Debug\netcoreapp2.1\SmartDrive
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Domain\bin\Debug\netcoreapp2.1\SmartDrive.Domain.deps.json
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Domain\bin\Debug\netcoreapp2.1\SmartDrive.Domain.dll
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Domain\bin\Debug\netcoreapp2.1\SmartDrive.Domain.pdb
-E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Domain\obj\Debug\netcoreapp2.1\SmartDrive.Domain.csprojAssemblyReference.cache
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Domain\obj\Debug\netcoreapp2.1\SmartDrive.Domain.csproj.CoreCompileInputs.cache
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Domain\obj\Debug\netcoreapp2.1\SmartDrive.Domain.AssemblyInfoInputs.cache
 E:\sundarproject\smartdriveapp\SmartDrive\SmartDrive.Domain\obj\Debug\netcoreapp2.1\SmartDrive.Domain.AssemblyInfo.cs

@@ -7,7 +7,13 @@ namespace SmartDrive.Domain.Entities
 {
     public class User
     {
+        public User()
+        {
+            Passwords = new HashSet<UserPassword>();           
+        }
         public int UserId { get; set; }
+
+        public int OrganizationId { get; set; }
 
         public int? AddressId { get; set; }
 
@@ -28,5 +34,11 @@ namespace SmartDrive.Domain.Entities
         public bool IsSuperAdmin { get; set; }
 
         public DataStatus Status { get; set; }
+
+        public Address Address { get; set; }
+
+        public Organization Organization { get; set; }
+
+        public ICollection<UserPassword> Passwords { get; set; }
     }
 }
